@@ -16,7 +16,7 @@ Low Power Management: Implements various low-power modes to optimize power consu
 
 The FSM in this project manages different aspects of system functionality through these states and functions:
 
-state1 : Bling the RGB LED color by color with delay of X.
+state1 : Blink the RGB LED color by color with delay of X.
 
 state2: Count up onto the LCD screen with delay of X.
 
@@ -32,9 +32,7 @@ state7: Show Menu.
 
 state8: Sleep mode. 
 
-# Peripheral Utilization
-
-Key Peripherals:
+#  Key Peripheral Utilization
 
 UART 
 
@@ -49,7 +47,6 @@ Keypad
 Interrupts
 
 Timers
-
 
 # Project Structure
 
